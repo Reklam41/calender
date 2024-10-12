@@ -44,3 +44,13 @@ td {
 .school {
   background-color: lightblue;
 }
+
+.exam {
+  background-color: rgb(245, 229, 200);
+}
+.sp {
+  background-color: rgb(243, 196, 108);
+}
+.poe {
+  background-color: rgb(153, 95, 153);
+}
