@@ -59,6 +59,10 @@ td {
   background-color: rgb(153, 95, 153);
 }
 
-#training {
-  display: none;
+.training-1 {
+  display: flex;
+}
+
+.training-2 {
+  display: flex;
 }
