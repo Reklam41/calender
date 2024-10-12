@@ -15,9 +15,8 @@ main {
   color: black;
 }
 
-header {
-  color: black;
-  padding: 0;
+.header {
+  background-color: lightskyblue;
 }
 
 table,
@@ -25,4 +24,16 @@ th,
 td {
   border: 1px solid black;
   border-collapse: collapse;
+}
+
+.days {
+  background-color: lightblue;
+}
+
+.holidays {
+  background-color: rgb(247, 247, 144);
+}
+
+.weekend {
+  background-color: lightslategray;
 }
