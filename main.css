@@ -1,6 +1,5 @@
 body {
-  /*background-color: black;*/
-  color: white;
+  background-color: black;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -8,11 +7,11 @@ body {
 }
 
 main {
+  background-color: tomato;
   display: grid;
-  /*background-color: tomato;*/
   grid-template-columns: repeat(4, 32.5%);
   gap: 1rem;
-  color: black;
+  place-content: center;
 }
 
 .header {
