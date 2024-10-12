@@ -35,5 +35,9 @@ td {
 }
 
 .weekend {
-  background-color: lightslategray;
+  background-color: lightgrey;
+}
+
+.school {
+  background-color: lightblue;
 }
