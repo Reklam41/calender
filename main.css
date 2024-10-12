@@ -1,12 +1,23 @@
+body {
+  /*background-color: black;*/
+  color: white;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  display: grid;
+  /*background-color: tomato;*/
+  text-align: center;
+  grid-template-columns: repeat(3, 32%);
+  gap: 4%;
+}
+
 table,
 th,
 td {
   border: 1px solid black;
   border-collapse: collapse;
-}
-
-main {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
 }
