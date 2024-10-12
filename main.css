@@ -10,9 +10,14 @@ body {
 main {
   display: grid;
   /*background-color: tomato;*/
-  text-align: center;
-  grid-template-columns: repeat(3, 32%);
-  gap: 4%;
+  grid-template-columns: repeat(4, 32.5%);
+  gap: 1rem;
+  color: black;
+}
+
+header {
+  color: black;
+  padding: 0;
 }
 
 table,
