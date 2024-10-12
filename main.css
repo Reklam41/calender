@@ -6,7 +6,11 @@ body {
   height: 100vh;
 }
 
-main {
+.head {
+  text-align: center;
+}
+
+.calender {
   /*background-color: tomato;*/
   display: grid;
   grid-template-columns: repeat(4, 32.5%);
