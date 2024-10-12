@@ -55,3 +55,7 @@ td {
 .poe {
   background-color: rgb(153, 95, 153);
 }
+
+.training {
+  display: inline;
+}
