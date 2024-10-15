@@ -35,8 +35,11 @@ td {
   border: 1px solid black;
   border-collapse: collapse;
 }
-td {
+td,
+th {
   text-align: center;
+  height: 21px;
+  width: 21px;
 }
 
 .days {
@@ -45,11 +48,18 @@ td {
 
 .holidays {
   background-color: #ffffc8;
-  color: rgb(108, 187, 211);
+  color: #2e5799;
+  font-weight: bold;
 }
 
 .weekend {
-  background-color: lightgrey;
+  background-color: #d9d9d9;
+  color: #888888;
+}
+
+.twenty-seven {
+  color: #2e5799;
+  font-weight: bold;
 }
 
 .school {
@@ -57,13 +67,13 @@ td {
 }
 
 .exam {
-  background-color: rgb(245, 229, 200);
+  background-color: #f9d4b7;
 }
 .sp {
-  background-color: rgb(243, 196, 108);
+  background-color: #fdbe8b;
 }
 .poe {
-  background-color: rgb(153, 95, 153);
+  background-color: #cbc1da;
 }
 
 .training {
