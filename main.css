@@ -4,10 +4,17 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  font-family: calibri, sans sans-serif;
 }
 
 .head {
   text-align: center;
+  .current-year {
+    color: #448aab;
+  }
+  .xo {
+    color: #448aab;
+  }
 }
 
 .calender {
@@ -19,7 +26,7 @@ body {
 }
 
 .header {
-  background-color: lightskyblue;
+  background-color: #93cede;
 }
 
 table,
@@ -33,11 +40,11 @@ td {
 }
 
 .days {
-  background-color: lightblue;
+  background-color: #b6dee6;
 }
 
 .holidays {
-  background-color: rgb(247, 247, 144);
+  background-color: #ffffc8;
   color: rgb(108, 187, 211);
 }
 
@@ -46,7 +53,7 @@ td {
 }
 
 .school {
-  background-color: lightblue;
+  background-color: #dbeef5;
 }
 
 .exam {
@@ -60,5 +67,9 @@ td {
 }
 
 .training {
-  display: none;
+  display: grid;
+  grid-template-columns: repeat(2, 66.8%);
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 16px;
 }
